@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -9,6 +9,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <div className='text-center'>
+      <h1 className='text-center m-2 p-2'>Welcome Johnny's First React Site!</h1>
+      <h3 >This sight uses React to dynamically populate the information for each Basketall team in March Madness</h3>
+    </div>
     <App />
   </React.StrictMode>
 );
